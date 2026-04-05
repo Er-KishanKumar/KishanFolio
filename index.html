@@ -23,7 +23,7 @@
 
 <!-- navbar starts -->
 <header>
-        <a href="/" class="logo"><i class="fab fa-node-js"></i> Kishan Kumar</a>
+        <a href="/" class="logo">Er Kishan Kumar</a>
 
         <div id="menu" class="fas fa-bars"></div>
         <nav class="navbar">
@@ -43,27 +43,52 @@
 
 <!-- hero section starts -->
 <section class="home" id="home">
-    <div id="particles-js"></div>
+    <div class="animated-bg">
+        <svg class="animated-mesh" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid slice">
+            <defs>
+                <filter id="noise">
+                    <feTurbulence type="fractalNoise" baseFrequency="0.009" numOctaves="4" result="noise" seed="2" />
+                    <feDisplacementMap in="SourceGraphic" in2="noise" scale="100" />
+                </filter>
+            </defs>
+            <g filter="url(#noise)">
+                <path class="mesh-path" d="M0,500 Q250,0 500,0 T1000,500 T500,1000 T0,500" fill="none" stroke="url(#grad1)" stroke-width="2"/>
+                <path class="mesh-path" d="M500,0 Q750,250 1000,500 Q750,750 500,1000 Q250,750 0,500 Q250,250 500,0" fill="none" stroke="url(#grad2)" stroke-width="2"/>
+                <circle class="mesh-circle" cx="250" cy="250" r="150" fill="none" stroke="url(#grad1)" stroke-width="2"/>
+                <circle class="mesh-circle" cx="750" cy="750" r="150" fill="none" stroke="url(#grad2)" stroke-width="2"/>
+            </g>
+            <defs>
+                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:rgba(0,217,255,0.6);stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:rgba(124,58,237,0.3);stop-opacity:1" />
+                </linearGradient>
+                <linearGradient id="grad2" x1="100%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" style="stop-color:rgba(124,58,237,0.6);stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:rgba(0,217,255,0.3);stop-opacity:1" />
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
 
     <div class="content">
     <h2>Hi There,<br/> I'm Kishan <span>Kumar</span></h2>
-    <p>i am into <span class="typing-text"></span></p>
-    <a href="#about" class="btn"><span>About Me</span>
+    <p>I'm into <span class="typing-text"></span></p>
+    <a href="#work" class="btn"><span>Explore My Work</span>
       <i class="fas fa-arrow-circle-down"></i>
     </a>
     <div class="socials">
         <ul class="social-icons">
-          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/erkishan/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/er-kishankumar/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
           <li><a class="github" aria-label="GitHub" href="https://github.com/Er-KishanKumar/" target="_blank"><i class="fab fa-github"></i></a></li>
           <li><a class="twitter" aria-label="Twitter" href="https://github.com/Er-KishanKumar/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-          <li><a class="telegram" aria-label="Facebook" href="https://www.facebook.com/kishankumar.gfx" target="_blank"><i class="fab fa-facebook"></i></a></li>
-          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/kishankumargfx/"><i class="fab fa-instagram" target="_blank"></i></a></li>
-          <li><a class="dev" aria-label="Youtube" href="https://www.youtube.com/@KishanKumarGfx" target="_blank"><i class="fab fa-youtube"></i></a></li>
+          <li><a class="telegram" aria-label="Facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/"><i class="fab fa-instagram" target="_blank"></i></a></li>
+          <li><a class="dev" aria-label="Youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
         </ul>
       </div>
     </div>
 <div class="image">
-    <img draggable="false" class="tilt" src="./assets/images/hero.png" alt="">
+    <img draggable="false" class="tilt" src="./assets/images/heroimg.jpeg" alt="">
 </div>
 </section>
 <!-- hero section ends -->
@@ -76,16 +101,14 @@
     <div class="row">
 
     <div class="image">
-        <img draggable="false" class="tilt" src="./assets/images/profile2.jpeg" alt="">
+        <img draggable="false" class="tilt" src="./assets/images/km-imgfinal.jpg" alt="">
     </div>
     <div class="content">
-        <h3>I'm Kishan Kumar</h3>
-        <span class="tag">Frontend Developer</span>
+        <h3>Er Kishan Kumar</h3>
+        <span class="tag">Frontend Developer/Designer & Trainer</span>
         
         <p>Welcome to my creative portfolio! Here you'll find a glimpse into
-          the diverse range of my skills and interests. I am a versatile and
-          creative individual who enjoys exploring various art forms. I am
-          always eager to collaborate with others and take on new challenges.
+          the diverse range of my skills and interests. I'm Senior Developer, Designer, and Technical Trainer with experience in web development, UI/UX design, graphic design, and AI-powered development tools. Currently working at Rank Up Technologies delivering multiple client projects, conducting technical workshops and seminars for engineering and polytechnic students, and participating in technical interviews and hiring processes. Skilled in building scalable web solutions, integrating modern technologies, and mentoring developers with practical, industry-focused training.
           Thank you for visiting my portfolio, and I look forward to creating
           something amazing together.</p>
         
@@ -96,12 +119,12 @@
             </div> -->
             <div class="box">
               <p><span> Email : </span> kishankumargfx@gmail.com</p>
-              <p><span> Place : </span> Lucknow, Uttar Pradesh, India</p>
+              <p><span> Mobile : </span> +91 9919041064</p>
             </div>
         </div>
         
         <div class="resumebtn">
-            <a href="https://drive.google.com/file/d/1fsdhGN1LlZBs3sMB7i4m0BpVzIl8PcHm/view?usp=sharing" target="_blank" class="btn"><span>Resume</span>
+            <a href="https://drive.google.com/file/d/17PzvO5F2gNRsDD-49CcULTnGLs_mXzO1/view?usp=sharing" target="_blank" class="btn"><span>Resume</span>
                 <i class="fas fa-chevron-right"></i>
             </a>
         </div>
@@ -207,39 +230,51 @@
   <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
 
   <div class="timeline">
-
-    <div class="container right">
+    
+    <div class="container left">
       <div class="content">
         <div class="tag">
-          <h2>Self Employed | Fresher</h2>
+          <h2>SR Frontend Developer/Designer & Trainer</h2>
         </div>
         <div class="desc">
-            <h3>Frontend Developer</h3>
+            <h3>Rank Up Technologies | Lucknow</h3>
             <p>present</p>
         </div>
       </div>
     </div>
 
-    <div class="container left">
-      <div class="content">
-        <div class="tag">
-          <h2>Sofcon India</h2>
-        </div>
-        <div class="desc">
-            <h3>Web Development | Internship</h3>
-            <p>NOV 2023 - Dec 2023 </p>
+    <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2> Professional Freelancer | IT Trainer</h2>
+          </div>
+          <div class="desc">
+              <h3>Defy The Norms | New Delhi	</h3>
+              <p>Mar 2025–Aug 2025</p>
+          </div>
         </div>
       </div>
-    </div>
+
+      <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>Youtuber</h2>
+          </div>
+          <div class="desc">
+              <h3>Video Making for youtube</h3>
+              <p>present</p>
+          </div>
+        </div>
+      </div>
 
     <div class="container right">
       <div class="content">
         <div class="tag">
-          <h2>CodeGrip (Trainning) </h2>
+          <h2>Internship</h2>
         </div>
         <div class="desc">
-            <h3>Core JAVA | Internship</h3>
-            <p>FEB 2024 - MAR 2024 </p>
+            <h3>MERN STACK</h3>
+            <p>Codtech IT Solutions Pvt. Ltd. </p>
         </div>
       </div>
     </div>
@@ -247,35 +282,11 @@
     <div class="container left">
       <div class="content">
         <div class="tag">
-          <h2>UPTEC COMPUTER CONSULTANCY LTD.</h2>
+          <h2>Internship</h2>
         </div>
         <div class="desc">
-            <h3>DATA SCIENCE USING PYTHON | Internship</h3>
-            <p>OCT 2024 - DEC 2024 </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container right">
-      <div class="content">
-        <div class="tag">
-          <h2>CODTECH IT SOLUTIONS PVT. LTD. </h2>
-        </div>
-        <div class="desc">
-            <h3> MERN STACK | Internship</h3>
-            <p>DEC 2024 - JAN 2025</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container left">
-      <div class="content">
-        <div class="tag">
-          <h2>Kishan Kumar Gfx</h2>
-        </div>
-        <div class="desc">
-            <h3>Graphic Design Agencey | Founder & SEO</h3>
-            <p>present</p>
+            <h3>Web Development </h3>
+            <p>Sofcon India Pvt. Ltd. </p>
         </div>
       </div>
     </div>
@@ -386,10 +397,6 @@
 
 <!-- typed.js cdn -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<!-- particle.js links -->
-<script src="./assets/js/particles.min.js"></script>
-<script src="./assets/js/app.js"></script>
 
 <!-- vanilla tilt.js links -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

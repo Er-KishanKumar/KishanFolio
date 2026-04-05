@@ -19,7 +19,7 @@ The personal portfolio website showcases my skills, projects, and experiences as
 - HTML: Markup language used for structuring the website.
 - CSS: Stylesheet language used for designing and formatting the website.
 - JavaScript: Programming language used for adding interactivity and dynamic features.
-- Jquery: fast, small, and feature-rich JavaScript library designed to simplify client-side scripting tasks in web development. 
+- Jquery: fast, small, and feature-rich JavaScript library designed to simplify client-side scripting tasks in web development.
 
 ## Getting Started
 
