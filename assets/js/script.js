@@ -275,3 +275,72 @@ srtop.reveal(".experience .timeline .container", { interval: 400 });
 /* SCROLL CONTACT */
 srtop.reveal(".contact .container", { delay: 400 });
 srtop.reveal(".contact .container .form-group", { delay: 400 });
+
+/* SCROLL GALLERY */
+srtop.reveal(".gallery .gallery-container", { delay: 400 });
+srtop.reveal(".gallery .gallery-item", { interval: 100 });
+
+// Gallery Lightbox functionality
+document.addEventListener("DOMContentLoaded", function () {
+	const galleryItems = document.querySelectorAll(".gallery-item");
+	const lightbox = document.getElementById("lightbox");
+	const lightboxImg = document.querySelector(".lightbox-img");
+	const closeBtn = document.querySelector(".lightbox .close");
+	const prevBtn = document.querySelector(".lightbox .prev");
+	const nextBtn = document.querySelector(".lightbox .next");
+	let currentImageIndex = 0;
+	let images = [];
+
+	// Get all gallery images
+	galleryItems.forEach((item, index) => {
+		const img = item.querySelector(".gallery-img");
+		images.push(img.dataset.full);
+
+		item.addEventListener("click", function () {
+			currentImageIndex = index;
+			openLightbox();
+		});
+	});
+
+	function openLightbox() {
+		lightboxImg.src = images[currentImageIndex];
+		lightbox.classList.add("active");
+		document.body.style.overflow = "hidden";
+	}
+
+	function closeLightbox() {
+		lightbox.classList.remove("active");
+		document.body.style.overflow = "auto";
+	}
+
+	function showPrevImage() {
+		currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+		lightboxImg.src = images[currentImageIndex];
+	}
+
+	function showNextImage() {
+		currentImageIndex = (currentImageIndex + 1) % images.length;
+		lightboxImg.src = images[currentImageIndex];
+	}
+
+	// Event listeners
+	closeBtn.addEventListener("click", closeLightbox);
+	prevBtn.addEventListener("click", showPrevImage);
+	nextBtn.addEventListener("click", showNextImage);
+
+	// Close lightbox when clicking outside the image
+	lightbox.addEventListener("click", function (e) {
+		if (e.target === lightbox) {
+			closeLightbox();
+		}
+	});
+
+	// Keyboard navigation
+	document.addEventListener("keydown", function (e) {
+		if (lightbox.classList.contains("active")) {
+			if (e.key === "ArrowLeft") showPrevImage();
+			if (e.key === "ArrowRight") showNextImage();
+			if (e.key === "Escape") closeLightbox();
+		}
+	});
+});
