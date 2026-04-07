@@ -3,7 +3,7 @@
 		"name": "AI Study Career",
 		"desc": "Built an AI-powered study and career platform with a unified dashboard, AI tools integration, and a job portal using Next.js and Laravel.",
 		"image": "aistudycareer",
-		"category": "android",
+		"category": "next",
 		"links": {
 			"view": "https://www.aistudycareer.com/",
 			"code": "https://github.com/Er-KishanKumar/"
@@ -13,7 +13,7 @@
 		"name": "Rank Up Technologies",
 		"desc": "Corporate technology website presenting company services, software solutions, and training programs, using Next.js, Tailwind CSS",
 		"image": "rankup-technologies",
-		"category": "android",
+		"category": "next",
 		"links": {
 			"view": "https://rankuptechnologies.com/",
 			"code": "https://github.com/Er-KishanKumar/"
@@ -23,7 +23,7 @@
 		"name": "Rank Up India",
 		"desc": "Digital marketing training institute website showcasing courses, programs, and career-focused skill development, using Next.js, Tailwind CSS",
 		"image": "rankup-india",
-		"category": "android",
+		"category": "next",
 		"links": {
 			"view": "https://www.linkedin.com/in/erkishan/",
 			"code": "https://github.com/Er-KishanKumar/"
@@ -33,7 +33,7 @@
 		"name": "VR Health & Wellness Clinic",
 		"desc": "Healthcare clinic website for wellness services, patient information, and online consultation details, using Next.js, Tailwind CSS",
 		"image": "vr-health-wellness-clinic",
-		"category": "android",
+		"category": "next",
 		"links": {
 			"view": "https://www.vrhwc.in/",
 			"code": "https://github.com/Er-KishanKumar/"
@@ -43,7 +43,7 @@
 		"name": "Aryan RO Services",
 		"desc": "Service business website for RO water purifier installation, repair, and maintenance services, using Next.js, Tailwind CSS",
 		"image": "aryan-ro-services",
-		"category": "android",
+		"category": "next",
 		"links": {
 			"view": "https://www.aryanroservices.in/",
 			"code": "https://github.com/Er-KishanKumar/"
@@ -53,7 +53,7 @@
 		"name": "Roti Bank NGO",
 		"desc": "NGO website supporting food distribution programs and community welfare initiatives, using Next.js, Tailwind CSS",
 		"image": "roti-bank",
-		"category": "android",
+		"category": "next",
 		"links": {
 			"view": "https://www.rotibank.co.in/",
 			"code": "https://github.com/Er-KishanKumar/"
@@ -63,7 +63,7 @@
 		"name": "Angels Foundation NGO",
 		"desc": "Non-profit website promoting education, women empowerment, and community development initiatives, using Next.js, Tailwind CSS",
 		"image": "angelsfoundation",
-		"category": "android",
+		"category": "next",
 		"links": {
 			"view": "https://www.angelsfoundationindia.org/",
 			"code": "https://github.com/Er-KishanKumar/"
@@ -93,7 +93,7 @@
 		"name": "Portfolio Website",
 		"desc": "Personal Portfolio Website using HTML CSS JAVASCRIPT.",
 		"image": "portfolio1",
-		"category": "mern",
+		"category": "basicweb",
 		"links": {
 			"view": "https://www.linkedin.com/in/erkishan/",
 			"code": "https://github.com/Er-KishanKumar/"

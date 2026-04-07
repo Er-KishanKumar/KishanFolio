@@ -1480,7 +1480,7 @@ form .button-area {
 	position: fixed;
 	top: -140%;
 	right: 2rem;
-	padding: 1.5rem 1.8rem;
+	padding: 1rem 0.5rem;
 	font-size: 2.5rem;
 	background: linear-gradient(135deg, #00d9ff, #7c3aed);
 	color: #0f0f1e;
@@ -1492,8 +1492,8 @@ form .button-area {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-width: 5.5rem;
-	min-height: 5.5rem;
+	min-width: 5rem;
+	min-height: 5rem;
 	border: 2px solid rgba(0, 217, 255, 0.8);
 }
 #scroll-top.active {

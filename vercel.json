@@ -1,0 +1,35 @@
+{
+	"buildCommand": "echo 'Build complete'",
+	"outputDirectory": ".",
+	"framework": "static",
+	"public": true,
+	"rewrites": [
+		{
+			"source": "/projects",
+			"destination": "/projects/index.html"
+		},
+		{
+			"source": "/projects/:path*",
+			"destination": "/projects/:path*"
+		},
+		{
+			"source": "/experience",
+			"destination": "/experience/index.html"
+		},
+		{
+			"source": "/experience/:path*",
+			"destination": "/experience/:path*"
+		}
+	],
+	"headers": [
+		{
+			"source": "/:path*",
+			"headers": [
+				{
+					"key": "Cache-Control",
+					"value": "public, max-age=3600, s-maxage=3600"
+				}
+			]
+		}
+	]
+}
