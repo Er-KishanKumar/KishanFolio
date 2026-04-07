@@ -1,8 +1,4 @@
 {
-	"buildCommand": "echo 'Build complete'",
-	"outputDirectory": ".",
-	"framework": "static",
-	"public": true,
 	"rewrites": [
 		{
 			"source": "/projects",
@@ -11,17 +7,6 @@
 		{
 			"source": "/experience",
 			"destination": "/experience/index.html"
-		}
-	],
-	"headers": [
-		{
-			"source": "/:path*",
-			"headers": [
-				{
-					"key": "Cache-Control",
-					"value": "public, max-age=3600, s-maxage=3600"
-				}
-			]
 		}
 	]
 }
